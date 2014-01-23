@@ -1,0 +1,6 @@
+lib/MojoX/Log/Declare.pm
+t/update.t
+README.pod
+Makefile.PL
+MANIFEST
+Changes
