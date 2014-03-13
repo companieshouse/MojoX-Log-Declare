@@ -12,7 +12,7 @@ use warnings;
     no strict 'refs';
     no warnings;
 
-    for my $level (@Log::Declare::level_priority) {
+    for my $level (@Log::Declare::level_priority,'log') {
 
         *{ __PACKAGE__ . "::$level" } = sub {
             my $self = shift;
