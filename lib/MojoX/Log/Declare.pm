@@ -19,6 +19,11 @@ use warnings;
             Log::Declare->log( $level, ['MOJO'], @_ );
         };
     }
+
+    *{ __PACKAGE__ . "::log" } = sub {
+        my $self = shift;
+        Log::Declare->log( 'info', ['MOJO'], @_ );
+    };
 }
 
 1;
