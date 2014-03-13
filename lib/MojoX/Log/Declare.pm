@@ -12,13 +12,18 @@ use warnings;
     no strict 'refs';
     no warnings;
 
-    for my $level (@Log::Declare::level_priority,'log') {
+    for my $level (@Log::Declare::level_priority) {
 
         *{ __PACKAGE__ . "::$level" } = sub {
             my $self = shift;
             Log::Declare->log( $level, ['MOJO'], @_ );
         };
     }
+
+    *{ __PACKAGE__ . "::log" } = sub {
+        my $self = shift;
+        Log::Declare->log( 'info', ['MOJO'], @_ );
+    };
 }
 
 1;
