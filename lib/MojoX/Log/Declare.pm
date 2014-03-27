@@ -1,4 +1,5 @@
 package MojoX::Log::Declare;
+#ABSTRACT: Integrate Log::Declare with Mojolicious
 
 use Mojo::Base -base;
 use Log::Declare;

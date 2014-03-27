@@ -1,6 +1,0 @@
-lib/MojoX/Log/Declare.pm
-t/log_declare.t
-README.pod
-Makefile.PL
-MANIFEST
-Changes
