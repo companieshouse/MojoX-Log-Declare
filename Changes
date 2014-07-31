@@ -1,5 +1,7 @@
 Revision history for Perl module MojoX::Log::Declare
 
+{{$NEXT}}
+
 0.03 2014-03-13
  - add log() method with level of 'info'
 
