@@ -1,4 +1,4 @@
-{{ $dist->name }}-*
+MojoX-Log-Declare-*
 blib/
 .build/
 _build/
