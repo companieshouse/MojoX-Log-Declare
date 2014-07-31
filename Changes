@@ -1,6 +1,8 @@
 Revision history for Perl module MojoX::Log::Declare
 
 {{$NEXT}}
+
+0.30  2014-07-31
   - harmonise to CHGOVUK standard
 
 0.03 2014-03-13
