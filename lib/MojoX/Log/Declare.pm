@@ -5,7 +5,7 @@ package MojoX::Log::Declare;
 use Mojo::Base -base;
 use Log::Declare;
 
-our $VERSION = '0.31';
+our $VERSION = '0.32';
 
 use strict;
 use warnings;
