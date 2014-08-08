@@ -1,0 +1,63 @@
+{
+   "abstract" : "Integrate Log::Declare with Mojolicious",
+   "author" : [
+      "Companies House <chgovuk@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141520",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MojoX-Log-Declare",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Log::Declare" : "0.10",
+            "Mojo::Base" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/companieshouse/MojoX-Log-Declare/issues"
+      },
+      "homepage" : "https://github.com/companieshouse/MojoX-Log-Declare",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/companieshouse/MojoX-Log-Declare.git",
+         "web" : "https://github.com/companieshouse/MojoX-Log-Declare"
+      }
+   },
+   "version" : "0.32"
+}
+
